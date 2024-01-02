@@ -5,9 +5,9 @@ const featureProjectsDB = require("../../serverless/models/featureProjects.mongo
 const api = express();
 
 export default api.get("/api/featureprojects", async (req, res) => {
-	connectdb();
+  connectdb();
 
-	const featureprojects = await featureProjectsDB.find({}, { __v: 0 });
+  const featureprojects = await featureProjectsDB.find({}, { __v: 0 });
 
-	res.json(featureprojects);
+  res.json(featureprojects);
 });

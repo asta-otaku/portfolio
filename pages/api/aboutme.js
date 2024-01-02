@@ -5,9 +5,9 @@ const aboutDB = require("../../serverless/models/aboutme.mongo");
 const api = express();
 
 export default api.get("/api/aboutme", async (_, res) => {
-	connectdb();
+  connectdb();
 
-	const aboutme = await aboutDB.findOne({}, { __v: 0 });
+  const aboutme = await aboutDB.findOne({}, { __v: 0 });
 
-	res.json(aboutme);
+  res.json(aboutme);
 });

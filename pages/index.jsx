@@ -23,7 +23,7 @@ export default function Home({
   return (
     <>
       <Head>
-		<title>asta-otaku | Portfolio</title>
+        <title>asta-otaku | Portfolio</title>
         <link rel="canonical" href="https://asta-otaku.vercel.app/" />
 
         <meta name="description" content="Ibrahim Afolabi's portfolio" />

@@ -8,11 +8,11 @@ import home from "../styles/Home.module.css";
  * @returns
  */
 export default function SectionHeader({ pos, heading }) {
-	return (
-		<div className={home.aboutHeader}>
-			<p className={home.numbering}>{pos}.</p>
-			<h2>{heading}</h2>
-			<hr />
-		</div>
-	);
+  return (
+    <div className={home.aboutHeader}>
+      <p className={home.numbering}>{pos}.</p>
+      <h2>{heading}</h2>
+      <hr />
+    </div>
+  );
 }
