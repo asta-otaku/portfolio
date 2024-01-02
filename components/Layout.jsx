@@ -80,7 +80,7 @@ export default function Layout({ children }) {
 							<a className='nav-link' href='#contact'>
 								<span>04.</span>Contact
 							</a>
-							<a href={resume_link}>
+							<a href={resume_link} target="_blank">
 								<button className='button' type='button'>
 									Resume
 								</button>
@@ -102,7 +102,7 @@ export default function Layout({ children }) {
 							<a className='nav-link' href='#contact'>
 								<span>04.</span>Contact
 							</a>
-							<a href={resume_link}>
+							<a href={resume_link} target="_blank">
 								<button className='button resume' type='button'>
 									Resume
 								</button>
@@ -171,4 +171,4 @@ export default function Layout({ children }) {
 }
 
 const resume_link =
-	"https://docs.google.com/document/d/14Hc5DLDKPDc7ffxNGTLwxE8NhiuNhbnAp-kvgvg51A8/edit?usp=sharing";
+	"https://docs.google.com/document/d/1AWNVX1ZhePLssZPT1YWaEhmemWFKU5I76Aw1Fnhanbc/edit?usp=sharing";
