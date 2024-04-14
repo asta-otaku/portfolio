@@ -41,7 +41,7 @@ export default function Aboutme({ aboutmeData }) {
           data-inview={photoRefInView}
         >
           <img
-            src="https://res.cloudinary.com/dbhhupoln/image/upload/v1693495265/me_r33tpe.jpg"
+            src="https://res.cloudinary.com/dbhhupoln/image/upload/v1713114031/profile_bgroqb.jpg"
             alt="Mr Ibrahim"
           />
         </figure>
