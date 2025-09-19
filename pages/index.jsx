@@ -50,11 +50,14 @@ export default function Home({
 
           <article>
             <p>
-              I&apos;m a software engineer with two years of experience,
-              specializing in web development with a strong background in Git,
-              Shell, React, Next.js, JavaScript, CI/CD, collaboration, HTML, and
-              CSS. Currently, I&apos;m focused on building accessible,
-              management-centered products at Flincap.
+              I&apos;m a passionate frontend developer with 3+ years of experience
+              crafting exceptional user experiences and building responsive, performant
+              web applications. I specialize in modern frontend technologies like React,
+              Next.js, JavaScript (ES6+), TypeScript, and CSS frameworks, with expertise
+              in state management, component architecture, and API integration. My skills
+              span responsive design, performance optimization, accessibility standards,
+              and modern development workflows, with a proven track record of delivering
+              pixel-perfect, user-centric interfaces that drive engagement and business results.
             </p>
           </article>
         </Container>
