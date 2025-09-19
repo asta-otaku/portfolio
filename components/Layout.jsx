@@ -162,9 +162,6 @@ export default function Layout({ children }) {
           <p>afolabiibrahim08@gmail.com</p>
           <hr />
         </div>
-        <p className="attribution">
-          Designed by Brittany Chiang & Built Ibrahim Afolabi
-        </p>
       </footer>
     </>
   );
