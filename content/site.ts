@@ -161,6 +161,29 @@ export const featuredProjects: FeaturedProject[] = [
     hue: 160,
   },
   {
+    title: "ECMS",
+    description:
+      "A multi-tenant headless CMS in React + Vite — drag-and-drop content blocks, TipTap editing, and role-based publishing so non-technical users can compose pages without engineering tickets.",
+    tech: ["React", "TypeScript", "Tailwind", "Vite", "TipTap", "Headless CMS"],
+    year: "2024",
+    live: "https://cms.kodefield.io/",
+    github: "https://github.com/a1-t1/json-cms",
+    image: cloudinary(
+      "v1786973230/Screenshot_2026-08-17_at_14.24.45_dp24qz.png",
+    ),
+    hue: 200,
+  },
+  {
+    title: "HaydaSkinco",
+    description: "A skincare hub with a clean, product-led storefront UI.",
+    tech: ["React", "TypeScript", "Tailwind", "Supabase"],
+    year: "2024",
+    live: "https://www.haydaskinco.com/",
+    github: "https://github.com/asta-otaku/haydaskinco",
+    image: cloudinary("v1786973363/seo_nmu8dg.png"),
+    hue: 240,
+  },
+  {
     title: "Flincap",
     description:
       "Mobile-first fintech (crypto) product UI built with React and Next.js — architecture polish, critical bug fixes, and UX that raised satisfaction.",
@@ -207,6 +230,12 @@ export type OtherProject = {
 
 export const otherProjects: OtherProject[] = [
   {
+    title: "RBF Charity",
+    description: "The Regentonians' Benevolent Fund | RBF Fund Charity Website",
+    tech: ["React", "Next.js", "Tailwind", "Paystack", "Node"],
+    live: "https://rbf-charity.vercel.app/",
+  },
+  {
     title: "CreatorWire",
     description:
       "Fast, reliable payments for creators, freelancers, and agencies — with clear tracking for brands.",
@@ -214,16 +243,10 @@ export const otherProjects: OtherProject[] = [
     live: "https://www.creatorwire.com/",
   },
   {
-    title: "HaydaSkinco",
-    description: "Skincare hub with a clean, product-led storefront UI.",
-    tech: ["React", "Next.js", "Tailwind", "Supabase"],
-    live: "https://www.haydaskinco.com/",
-  },
-  {
-    title: "Book Inventory",
-    description: "Lightweight inventory client for tracking and browsing books.",
-    tech: ["React", "Tailwind"],
-    live: "https://book-project-client.vercel.app/",
+    title: "Aosea Global Resources Limited",
+    description: "Indigenous technical services for Nigeria's Oil & Gas Sector",
+    tech: ["React", "Tailwind", "Next.js", "TypeScript"],
+    live: "https://www.aoseaglobal.com/",
   },
 ];
 

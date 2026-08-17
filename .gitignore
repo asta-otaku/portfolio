@@ -29,3 +29,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# private Cursor notes (job emails, local rules)
+.cursor/
