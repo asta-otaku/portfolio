@@ -12,7 +12,7 @@ export const site = {
   resumePreviewUrl: `https://docs.google.com/document/d/${resumeDocId}/preview`,
   resumePdfUrl: `https://docs.google.com/document/d/${resumeDocId}/export?format=pdf`,
   photo:
-    "https://res.cloudinary.com/dbhhupoln/image/upload/f_auto,q_auto,w_800,c_fill,g_face/v1713114031/profile_bgroqb.jpg",
+    cloudinary("v1758279104/profile_bgroqb.jpg  "),
   tagline: "I ship product experiences people actually enjoy using.",
   heroSupport:
     "Frontend-focused full stack engineer with 4+ years building scalable web products — React, Next.js, and TypeScript up front, with APIs, integrations, and deployment when the product needs it.",
@@ -112,7 +112,7 @@ export const site = {
 
 /** Resize + auto format via Cloudinary so large screenshots don't stall. */
 function cloudinary(path: string) {
-  return `https://res.cloudinary.com/dbhhupoln/image/upload/f_auto,q_auto,w_1400,c_limit/${path}`;
+  return `https://res.cloudinary.com/asta-otaku/image/upload/${path}`;
 }
 
 export type FeaturedProject = {
@@ -135,7 +135,7 @@ export const featuredProjects: FeaturedProject[] = [
     year: "2025",
     live: "https://caraten.com/en",
     github: "https://github.com/a1-t1/caraten",
-    image: cloudinary("v1758285399/seo_yvevct.png"),
+    image: cloudinary("v1788021812/seo_wcsi5b.png"),
     hue: 150,
   },
   {
@@ -233,7 +233,7 @@ export const otherProjects: OtherProject[] = [
     title: "RBF Charity",
     description: "The Regentonians' Benevolent Fund | RBF Fund Charity Website",
     tech: ["React", "Next.js", "Tailwind", "Paystack", "Node"],
-    live: "https://rbf-charity.vercel.app/",
+    live: "https://www.theregentoniansbenevolentfund.org/",
   },
   {
     title: "CreatorWire",
